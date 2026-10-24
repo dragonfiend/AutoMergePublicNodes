@@ -12,17 +12,11 @@ proxies:
     headers:
       Host: tn1r.eu.cc
     path: /id-pusat
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #2'
-  port: 35544
-  server: funagfrdfs.alixxplay.com
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: firefox
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #4'
+- client-fingerprint: chrome
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #5'
   network: ws
   port: 443
-  server: 43.170.8.95
+  server: 104.16.10.72
   servername: jp3.yohototo.top
   tls: true
   type: vless
@@ -31,7 +25,7 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #5'
+- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #6'
   port: 443
   server: 137.220.221.179
   tls: false
@@ -42,12 +36,6 @@ proxies:
   password: BeaUf9c0AEWH40Pu
   port: 8388
   server: 154.36.158.197
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-1598...
-  password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv
-  port: 8388
-  server: 191.223.221.53
   type: ss
 - cipher: aes-256-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-1544...
@@ -114,18 +102,11 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇯🇵JP_1|1.9MB/s
-  password: None
-  port: 343
-  server: 133.18.200.207
-  skip-cert-verify: true
-  tls: true
-  type: http
 - client-fingerprint: chrome
   name: '🇯🇵 日本 | JPN #1'
   network: ws
   port: 443
-  server: 13.158.39.80
+  server: 3.112.67.101
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -134,33 +115,4 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: '🇯🇵 日本 | JPN #2'
-  network: ws
-  port: 8443
-  server: 103.85.25.226
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: '🇯🇵 日本 | JPN #3'
-  network: http
-  port: 443
-  server: 18.183.192.46
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome
